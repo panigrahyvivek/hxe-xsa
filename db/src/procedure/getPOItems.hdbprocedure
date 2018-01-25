@@ -1,0 +1,12 @@
+PROCEDURE "hxe_xsa.db.procedure::getPOItems" ( OUT ex_addresses "hxe_xsa.db.data::PurchaseOrder.Item" )
+   LANGUAGE SQLSCRIPT
+   SQL SECURITY INVOKER
+   --DEFAULT SCHEMA <default_schema_name>
+   READS SQL DATA AS
+BEGIN
+   /*************************************
+       Write your procedure logic 
+   *************************************/
+   ex_addresses =
+  	     select * from "hxe_xsa.db.data::PurchaseOrder.Item";
+END
