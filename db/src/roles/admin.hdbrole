@@ -15,7 +15,7 @@
 		}],
 		"schema_analytic_privileges": [
             {
-                "privileges":[ "PO_VIEW_PRIVILEGE" ]
+                "privileges":[ "hxe_xsa.db.roles::PO_VIEW_PRIVILEGE" ]
             }
         ]
 

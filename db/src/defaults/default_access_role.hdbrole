@@ -1,6 +1,6 @@
 {
 	"role":{
-		"name": "hxe_xsa.db.defaults::default_access_role",
+		"name": "default_access_role",
 		"schema_roles": [{
 		 "names": ["hxe_xsa.db.roles::admin"]
 		}]
