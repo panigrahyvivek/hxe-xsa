@@ -16,8 +16,8 @@ modules:
           url: '${default-url}'
     requires:
       - name: HANA2-uaa
-      - name: hdi_db
       - name: db
+      - name: hdi_db
   - name: web
     type: html5
     path: web
